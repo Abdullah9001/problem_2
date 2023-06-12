@@ -27,3 +27,17 @@ function liniarSearch(arr, val) {
 }
 
 console.log(liniarSearch(["a", "b", "c", "d", "c"], "c"));
+
+// third problem
+function longestString(names) {
+  let longestWord = "";
+
+  for (nam of names) {
+    if (nam.length > longestWord.length) {
+      longestWord = nam;
+    }
+  }
+  return [longestWord, names.indexOf(longestWord)];
+}
+
+console.log(longestString(["abdullah", "toaha", "Abdullah Jubayer Toaha"]));
