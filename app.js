@@ -103,3 +103,5 @@ const trueThyObject = function (obj) {
 };
 
 console.log(trueThyObject(obj));
+
+// all problem done in problem 2 lesson
