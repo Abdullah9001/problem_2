@@ -41,3 +41,20 @@ function longestString(names) {
 }
 
 console.log(longestString(["abdullah", "toaha", "Abdullah Jubayer Toaha"]));
+
+// fourth problem
+function fizbuzz(number) {
+  for (let i = 1; i <= number; i++) {
+    if (i % 15 === 0) {
+      console.log(`${i} is Fizbuzz`);
+    } else if (i % 3 === 0) {
+      console.log(`${i} is Fiz`);
+    } else if (i % 5 === 0) {
+      console.log(`${i} is Buzz`);
+    } else {
+      console.log(i);
+    }
+  }
+}
+
+fizbuzz(100);
