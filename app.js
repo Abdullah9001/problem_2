@@ -58,3 +58,22 @@ function fizbuzz(number) {
 }
 
 fizbuzz(100);
+
+// fifth problem
+const mixedArr = [
+  "aj",
+  undefined,
+  "toaha",
+  true,
+  40,
+  false,
+  "abdullah",
+  null,
+  "a",
+  "",
+  NaN,
+  0,
+];
+
+const trueArray = mixedArr.filter(Boolean);
+console.log(trueArray);
